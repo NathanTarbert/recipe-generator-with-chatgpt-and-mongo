@@ -11,7 +11,15 @@
 
 # next.js
 /.next/
+.next*
 /out/
+/cache/
+/server/
+/static/
+/types/
+/trace/
+app-build-manifest.json
+build-manifest.json
 
 # production
 /build
@@ -26,6 +34,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
+env
+.env.local
 .env*.local
 
 # vercel
